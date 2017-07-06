@@ -1,4 +1,4 @@
-# jQuery_assignment-2
+# Product_Image_Slider
 
 Created jQuery Lightbox, Slider and Modal
 

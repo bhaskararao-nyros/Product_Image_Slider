@@ -3,6 +3,7 @@
 	display: block;
 	border:1px solid grey;
 	margin-bottom: 4px;
+	margin-left: 10px;
 }
 .image:hover 
 {
@@ -67,11 +68,7 @@ p:hover
 	text-decoration: underline;
 	cursor: pointer;
 }
-.panel  	/*modal margin style*/
-{
-	margin: 85px;
-}
-.col-lg-3
+.col-md-3
 {
 	padding-left: 35px;
 	width: 23% !important;
@@ -79,7 +76,7 @@ p:hover
 .canvas		/*modal small images box*/
 {
 	border: 1px solid grey;
-	height: 470px;
+	height: 420px;
 }
 .smimage 	/*modal small images style*/
 {
@@ -94,11 +91,7 @@ p:hover
 }
 .modal-dialog 		/*modal width style*/
 {
-	width: 90% !important;
-}
-.popuprow
-{
-	margin-top: -95px;
+	width: 85% !important;
 }
 .border 	/*added class border on hover small images in modal */
 {
@@ -130,10 +123,8 @@ p:hover
 }
 #right
 {
-	margin-left: 1262px;
+	margin-left: 92%;
 }
-
-
 .numbertext
 {
 	float: right;
@@ -144,11 +135,20 @@ p:hover
 	margin-right: 10px;
 	margin-left: 10px;
 }
-.col-lg-2
+.col-md-2
 {
 	width: 15.667% !important;
 }
 .slider
 {
 	margin-left: 57px;
+}
+.modal-header
+{
+	border-bottom: none;
+	padding: 0px;
+}
+button.close
+{
+	margin-right: 5px;
 }
