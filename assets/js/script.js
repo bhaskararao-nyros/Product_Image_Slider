@@ -1,0 +1,166 @@
+$(document).ready(function()
+{										
+									// hover on images
+	$('#image1').hover(function()
+{
+	$('#bigimage1').show();
+	$('#bigimage2,#bigimage3,#bigimage4,#bigimage5,#bigimage6,#bigimage7,#bigimage8').hide();
+});
+$('#image2').hover(function()
+{
+	$('#bigimage2').show();
+	$('#bigimage1,#bigimage3,#bigimage4,#bigimage5,#bigimage6,#bigimage7,#bigimage8').hide();
+});
+$('#image3').hover(function()
+{
+	$('#bigimage3').show();
+	$('#bigimage2,#bigimage1,#bigimage4,#bigimage5,#bigimage6,#bigimage7,#bigimage8').hide();
+});
+$('#image4').hover(function()
+{
+	$('#bigimage4').show();
+	$('#bigimage2,#bigimage3,#bigimage1,#bigimage5,#bigimage6,#bigimage7,#bigimage8').hide();
+});
+$('#image5').hover(function()
+{
+	$('#bigimage5').show();
+	$('#bigimage2,#bigimage3,#bigimage4,#bigimage1,#bigimage6,#bigimage7,#bigimage8').hide();
+});
+$('#image6').hover(function()
+{
+	$('#bigimage6').show();
+	$('#bigimage2,#bigimage3,#bigimage4,#bigimage5,#bigimage1,#bigimage7,#bigimage8').hide();
+});
+$('#image7').hover(function()
+{
+	$('#bigimage7').show();
+	$('#bigimage2,#bigimage3,#bigimage4,#bigimage5,#bigimage6,#bigimage1,#bigimage8').hide();
+});
+$('#image8').hover(function()
+{
+	$('#bigimage8').show();
+	$('#bigimage2,#bigimage3,#bigimage4,#bigimage5,#bigimage6,#bigimage7,#bigimage1').hide();
+});
+									// click on the image
+$('#bigimage1').click(function()
+{
+	$('#mymodal').modal();
+	$('#xlimage1').show();
+	$('#smimage1').addClass('border');
+	$('#smimage2,#smimage3,#smimage4,#smimage5,#smimage6,#smimage7,#smimage8').removeClass('border');
+	$('#xlimage2,#xlimage3,#xlimage4,#xlimage5,#xlimage6,#xlimage7,#xlimage8').hide();
+});
+$('#bigimage2').click(function()
+{
+	$('#mymodal').modal();
+	$('#xlimage2').show();
+	$('#smimage2').addClass('border');
+	$('#smimage1,#smimage3,#smimage4,#smimage5,#smimage6,#smimage7,#smimage8').removeClass('border');
+	$('#xlimage1,#xlimage3,#xlimage4,#xlimage5,#xlimage6,#xlimage7,#xlimage8').hide();
+});
+$('#bigimage3').click(function()
+{
+	$('#mymodal').modal();
+	$('#xlimage3').show();
+	$('#smimage3').addClass('border');
+	$('#smimage1,#smimage2,#smimage4,#smimage5,#smimage6,#smimage7,#smimage8').removeClass('border');
+	$('#xlimage2,#xlimage1,#xlimage4,#xlimage5,#xlimage6,#xlimage7,#xlimage8').hide();
+});
+$('#bigimage4').click(function()
+{
+	$('#mymodal').modal();
+	$('#xlimage4').show();
+	$('#smimage4').addClass('border');
+	$('#smimage1,#smimage2,#smimage3,#smimage5,#smimage6,#smimage7,#smimage8').removeClass('border');
+	$('#xlimage2,#xlimage3,#xlimage1,#xlimage5,#xlimage6,#xlimage7,#xlimage8').hide();
+});
+$('#bigimage5').click(function()
+{
+	$('#mymodal').modal();
+	$('#xlimage5').show();
+	$('#smimage5').addClass('border');
+	$('#smimage1,#smimage2,#smimage4,#smimage3,#smimage6,#smimage7,#smimage8').removeClass('border');
+	$('#xlimage2,#xlimage3,#xlimage4,#xlimage1,#xlimage6,#xlimage7,#xlimage8').hide();
+});
+$('#bigimage6').click(function()
+{
+	$('#mymodal').modal();
+	$('#xlimage6').show();
+	$('#smimage6').addClass('border');
+	$('#smimage1,#smimage2,#smimage4,#smimage5,#smimage3,#smimage7,#smimage8').removeClass('border');
+	$('#xlimage2,#xlimage3,#xlimage4,#xlimage5,#xlimage1,#xlimage7,#xlimage8').hide();
+});
+$('#bigimage7').click(function()
+{
+	$('#mymodal').modal();
+	$('#xlimage7').show();
+	$('#smimage7').addClass('border');
+	$('#smimage1,#smimage2,#smimage4,#smimage5,#smimage3,#smimage6,#smimage8').removeClass('border');
+	$('#xlimage2,#xlimage3,#xlimage4,#xlimage5,#xlimage6,#xlimage1,#xlimage8').hide();
+});
+$('#bigimage8').click(function()
+{
+	$('#mymodal').modal();
+	$('#xlimage8').show();
+	$('#smimage8').addClass('border');
+	$('#smimage1,#smimage2,#smimage4,#smimage5,#smimage3,#smimage7,#smimage6').removeClass('border');
+	$('#xlimage2,#xlimage3,#xlimage4,#xlimage5,#xlimage6,#xlimage7,#xlimage1').hide();
+});
+
+$('#smimage1').click(function()
+{
+	$('#xlimage1').show();
+	$('#smimage1').addClass('border');
+	$('#smimage1,#smimage3,#smimage4,#smimage5,#smimage6,#smimage7,#smimage8').removeClass('border');
+	$('#xlimage2,#xlimage3,#xlimage4,#xlimage5,#xlimage6,#xlimage7,#xlimage8').hide();
+});
+$('#smimage2').click(function()
+{
+	$('#xlimage2').show();
+	$('#smimage2').addClass('border');
+	$('#smimage1,#smimage3,#smimage4,#smimage5,#smimage6,#smimage7,#smimage8').removeClass('border');
+	$('#xlimage1,#xlimage3,#xlimage4,#xlimage5,#xlimage6,#xlimage7,#xlimage8').hide();
+});
+$('#smimage3').click(function()
+{
+	$('#xlimage3').show();
+	$('#smimage3').addClass('border');
+	$('#smimage1,#smimage2,#smimage4,#smimage5,#smimage6,#smimage7,#smimage8').removeClass('border');
+	$('#xlimage2,#xlimage1,#xlimage4,#xlimage5,#xlimage6,#xlimage7,#xlimage8').hide();
+});
+$('#smimage4').click(function()
+{
+	$('#xlimage4').show();
+	$('#smimage4').addClass('border');
+	$('#smimage1,#smimage2,#smimage3,#smimage5,#smimage6,#smimage7,#smimage8').removeClass('border');
+	$('#xlimage2,#xlimage3,#xlimage1,#xlimage5,#xlimage6,#xlimage7,#xlimage8').hide();
+});
+$('#smimage5').click(function()
+{
+	$('#xlimage5').show();
+	$('#smimage5').addClass('border');
+	$('#smimage1,#smimage2,#smimage4,#smimage3,#smimage6,#smimage7,#smimage8').removeClass('border');
+	$('#xlimage2,#xlimage3,#xlimage4,#xlimage1,#xlimage6,#xlimage7,#xlimage8').hide();
+});
+$('#smimage6').click(function()
+{
+	$('#xlimage6').show();
+	$('#smimage6').addClass('border');
+	$('#smimage1,#smimage2,#smimage4,#smimage5,#smimage3,#smimage7,#smimage8').removeClass('border');
+	$('#xlimage2,#xlimage3,#xlimage4,#xlimage5,#xlimage1,#xlimage7,#xlimage8').hide();
+});
+$('#smimage7').click(function()
+{
+	$('#xlimage7').show();
+	$('#smimage7').addClass('border');
+	$('#smimage1,#smimage2,#smimage4,#smimage5,#smimage3,#smimage6,#smimage8').removeClass('border');
+	$('#xlimage2,#xlimage3,#xlimage4,#xlimage5,#xlimage6,#xlimage1,#xlimage8').hide();
+});
+$('#smimage8').click(function()
+{
+	$('#xlimage8').show();
+	$('#smimage8').addClass('border');
+	$('#smimage1,#smimage2,#smimage4,#smimage5,#smimage3,#smimage7,#smimage6').removeClass('border');
+	$('#xlimage2,#xlimage3,#xlimage4,#xlimage5,#xlimage6,#xlimage7,#xlimage1').hide();
+});
+});

@@ -1,0 +1,154 @@
+.image 		/*homepage small images style*/
+{
+	display: block;
+	border:1px solid grey;
+	margin-bottom: 4px;
+}
+.image:hover 
+{
+	border:2px solid orange;
+	cursor: pointer;
+}
+.bigimage 		/*homepage large images style*/
+{
+	width: 450px;
+	height: 265px;
+	margin-top: 95px;
+	display: none;
+}
+.xlimage 		/*modal large images style*/
+{
+	width: 450px;
+	height: 265px;
+	margin: 150px 165px 165px 215px;
+	display: none;
+}
+img.xlimage.active
+{
+	display: inline;
+}
+img.bigimage.active
+{
+	display: inline;
+}
+h3 	/*product title style*/
+{
+	margin-top: 4px;
+}
+.glyphicon-star 	/*star rating style*/
+{
+	color: orange;
+}
+h5 		/*product discription style*/
+{
+	font-size: 17px;
+	font-weight: bold;
+	color: green;
+}
+.homerow
+{
+	margin-top: 45px;
+}
+.descript
+{
+	margin-top: 55px;
+}
+span
+{
+	margin-left: 96px;
+}
+p 		/*each product description style*/
+{
+	color:  #285f93 ;
+}
+p:hover
+{
+	color: #d5ac09;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.panel  	/*modal margin style*/
+{
+	margin: 85px;
+}
+.col-lg-3
+{
+	padding-left: 35px;
+	width: 23% !important;
+}
+.canvas		/*modal small images box*/
+{
+	border: 1px solid grey;
+	height: 470px;
+}
+.smimage 	/*modal small images style*/
+{
+	border:1px solid grey;
+	margin: 5px;
+	padding: 5px;
+}
+.smimage:hover
+{
+	border: 2px solid blue;
+	cursor: pointer;
+}
+.modal-dialog 		/*modal width style*/
+{
+	width: 90% !important;
+}
+.popuprow
+{
+	margin-top: -95px;
+}
+.border 	/*added class border on hover small images in modal */
+{
+	border:2px solid orange;
+}
+.slider-inner
+{
+	position: relative;
+	overflow: hidden;
+}
+.slider-inner .row
+{
+	display: none;
+}
+.slider-inner .visible
+{
+	display: inherit;
+}
+#left, #right 		/*left and right slider arrows style*/
+{
+	font-size: 20px;
+	background-color: #e7e9ec;
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 3px;
+	position: absolute;
+	margin-top: 635px;
+	cursor: pointer;
+}
+#right
+{
+	margin-left: 1262px;
+}
+
+
+.numbertext
+{
+	float: right;
+	margin-right: 30px;
+}
+.container-fluid
+{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.col-lg-2
+{
+	width: 15.667% !important;
+}
+.slider
+{
+	margin-left: 57px;
+}
